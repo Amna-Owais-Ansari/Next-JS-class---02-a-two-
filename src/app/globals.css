@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main{
+  height: 100%;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;}
+.intro{
+  width: 100%;
+  height: 100%;
+  
+  padding: 30px;
+}
+.intro h1{
+  font-size: 100px;
+  line-height: 90px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.place h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+.place{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.pic{
+display: flex;
+
+}
+.pic img{
+   width: 900px;
+  height: 600px;
+ 
+ justify-items: flex-end;
+ margin-left: 20px;
+ backface-visibility: hidden;
+}
+
+.pic h1{
+position: absolute;
+top: 600px;
+left: 600px;
+font-size: 30px;
+align-items: end;
+}
+
+.menus{
+ 
+  display: flex;
+  position:fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  border-radius: 3px;
+
+}
+
+.menus h3{
+  
+ 
+  background-color: black;
+  color: antiquewhite;
+padding: 10px 20px;
+border-radius: 40px;
+margin-left: 4px;
+font-weight: bold;
+  
+}
+.About1 {
+  width: 100%;
+  height: 2px;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: center; /* Vertically center the icons */
+  padding-right: 20px; /* Add padding to give some space from the edge */
+ 
+}
